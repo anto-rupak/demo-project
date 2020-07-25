@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Video</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <video controls #myVideo  width="375" height="240"  [src]="src">
+    
+    Browser not supported
+</video>
+
+<ion-button (click)="playVideo()">Play video</ion-button>
+<ion-button (click)="stopVideo()">stop video</ion-button>
+<ion-button (click)="nextVideo()">Next video</ion-button>
+</ion-content>

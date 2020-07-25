@@ -1,0 +1,33 @@
+.small-text {
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.invalid {
+    border: 1px solid #ea6153;
+}
+
+ion-label, .select-text {
+    margin-left: 10px;
+}
+
+.error {
+    color: rgb(223, 62, 62);
+    font-size: 11px;
+    position: relative;
+    left: 15px;
+  }
+
+  .error1 {
+    color: rgb(75, 75, 75);
+    border-bottom: 1px solid #ff0000;
+    position: relative;
+    left: 15px;
+  }
+
+  .login-btn{
+    position: relative;
+    left: 30%;
+  }
